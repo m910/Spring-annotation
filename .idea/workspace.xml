@@ -7,7 +7,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/domain/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/domain/Actor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/domain/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/domain/AppConfig.class" afterDir="false" />

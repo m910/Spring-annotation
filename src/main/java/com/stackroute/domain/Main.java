@@ -16,9 +16,7 @@ public class Main {
         Actor actor3 = context.getBean("actor3",Actor.class);
 
 
-       Movie movie1 =(Movie)(context.getBean("beanmovie"));
-        Movie movie2 =(Movie)(context.getBean("beanmovie"));
-        System.out.println(movie1==movie2);
+       Movie movie =(Movie)(context.getBean("beanmovie"));
 
         System.out.println(actor);
         System.out.println(actor2);
