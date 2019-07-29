@@ -4,8 +4,6 @@ import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
 
 
 @Component
@@ -20,12 +18,12 @@ public class BeanLifecycleDemoBean implements InitializingBean, DisposableBean{
     }
 
 
-    @PostConstruct
+
     public void customInit(){
         System.out.println("Bean is going through init");
 
     }
-    @PreDestroy
+
     public void customDestroy(){
         System.out.println("Bean will destroy now.");
 
