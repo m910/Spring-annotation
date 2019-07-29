@@ -1,5 +1,6 @@
 package com.stackroute.domain;
 
+import com.stackroute.demo.BeanLifecycleDemoBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -26,6 +27,11 @@ public class AppConfig {
     public Actor actor3(){
         Actor actor3 = new Actor("Deepika Padukone","Female",36);
         return actor3;
+    }
+    @Bean(name="beanLifecycleDemoBean")
+    public  BeanLifecycleDemoBean getBeanLife(){
+        BeanLifecycleDemoBean beanLifecycleDemoBean=new BeanLifecycleDemoBean();
+        return  beanLifecycleDemoBean;
     }
 
 
